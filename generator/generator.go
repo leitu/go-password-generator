@@ -6,7 +6,8 @@ import (
 )
 
 var allowedChars = []rune("QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0987654321")
-var specialChars = []rune("~!@#$%^&*()_+-=|{}[]\\/';:")
+//var specialChars = []rune("~!@#$%^&*()_+-=|{}[]\\/';:")
+var specialChars = []rune("~!@#$%^&*()_+-=|{}[]';:")
 
 // Generate random password
 // strong - include to password special characters
